@@ -75,5 +75,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install the required dependencies:
 ```bash
 pip3 install requests
+```
+
+## Usage 
+<img width="664" height="274" alt="Screenshot from 2026-01-13 15-41-52" src="https://github.com/user-attachments/assets/1feea247-11d5-4d91-ad34-4d461a91091b" />
 
 
