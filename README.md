@@ -21,6 +21,7 @@ Username and password types inside the IntelX leak file:
 
 It outputs structured JSON files ready for SOC ingestion, automation, or alerting.
 
+
 P.S.
 This tool specifically targets the IntelX bucket leaks.private.general, which aggregates private breach material, leaked credentials, and compromised account data relevant for threat intelligence and incident response workflows.
 
@@ -28,8 +29,8 @@ This tool specifically targets the IntelX bucket leaks.private.general, which ag
 
 
 
-Features
 
+Features
 • IntelX search automation
 • Polling for result readiness
 • Credential parsing
