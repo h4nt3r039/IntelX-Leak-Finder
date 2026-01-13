@@ -24,18 +24,6 @@ Username and password types inside the IntelX leak file:
 
 • CSV-like formats
 
-• Weird real-world dumps
-
-It outputs structured JSON files ready for SOC ingestion, automation, or alerting.
-
-
-P.S.
-This tool specifically targets the IntelX bucket "leaks.private.general", which aggregates private breach material, leaked credentials, and compromised account data relevant for threat intelligence and incident response workflows.
-
-<img width="201" height="360" alt="Screenshot from 2026-01-13 15-32-52" src="https://github.com/user-attachments/assets/e3d7cf4f-27d5-42d3-b830-796cefeb7e70" />
-
-
-
 
 # Features
 
@@ -52,3 +40,40 @@ This tool specifically targets the IntelX bucket "leaks.private.general", which 
 • Date range filtering
 
 • JSON output
+
+
+P.S.
+This tool specifically targets the IntelX bucket "leaks.private.general", that means only Identity Portal or Enterprise accounts can use this tool. which aggregates private breach material, leaked credentials, and compromised account data relevant for threat intelligence and incident response workflows.
+
+<img width="201" height="360" alt="Screenshot from 2026-01-13 15-32-52" src="https://github.com/user-attachments/assets/e3d7cf4f-27d5-42d3-b830-796cefeb7e70" />
+
+# Requirements
+
+• Python 3.10 or higher
+
+• requests library
+
+• An active IntelX API key (Identity Portal or Enterprise)
+
+• Internet access (for IntelX API calls)
+
+
+# Installation
+
+1. Clone the repository:
+```bash
+https://github.com/h4nt3r039/IntelX-Leak-Finder
+cd IntelX-Leak-Finder
+```
+
+2. Create a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install the required dependencies:
+```bash
+pip3 install requests
+
+
