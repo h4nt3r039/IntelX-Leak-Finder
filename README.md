@@ -30,7 +30,7 @@ It outputs structured JSON files ready for SOC ingestion, automation, or alertin
 
 
 P.S.
-This tool specifically targets the IntelX bucket leaks.private.general, which aggregates private breach material, leaked credentials, and compromised account data relevant for threat intelligence and incident response workflows.
+This tool specifically targets the IntelX bucket "leaks.private.general", which aggregates private breach material, leaked credentials, and compromised account data relevant for threat intelligence and incident response workflows.
 
 <img width="201" height="360" alt="Screenshot from 2026-01-13 15-32-52" src="https://github.com/user-attachments/assets/e3d7cf4f-27d5-42d3-b830-796cefeb7e70" />
 
