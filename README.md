@@ -4,7 +4,7 @@
 * SOC-focused IntelX credential extractor
 
 
-# What this tool does:
+## What this tool does:
 
 This tool searches IntelX for leaked data related to a specific domain and extracts credentials from raw leak files. 
 
@@ -25,7 +25,7 @@ Username and password types inside the IntelX leak file:
 • CSV-like formats
 
 
-# Features
+## Features
 
 • IntelX search automation
 
@@ -47,7 +47,7 @@ This tool specifically targets the IntelX bucket "leaks.private.general", that m
 
 <img width="201" height="360" alt="Screenshot from 2026-01-13 15-32-52" src="https://github.com/user-attachments/assets/e3d7cf4f-27d5-42d3-b830-796cefeb7e70" />
 
-# Requirements
+## Requirements
 
 • Python 3.10 or higher
 
@@ -58,7 +58,7 @@ This tool specifically targets the IntelX bucket "leaks.private.general", that m
 • Internet access (for IntelX API calls)
 
 
-# Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -93,4 +93,8 @@ options:
   --to DATE_TO
 
 ```
+
+## Example 
+
+<img width="1836" height="419" alt="Screenshot 2026-01-13 160412" src="https://github.com/user-attachments/assets/1800c930-4ce8-413d-8308-fdd9f7049df3" />
 
