@@ -8,21 +8,6 @@
 
 This tool searches IntelX for leaked data related to a specific domain and extracts credentials from raw leak files. 
 
-Username and password types inside the IntelX leak file:
-
-• URL + username + password
-
-• Email + password
-
-• Phone + password
-
-• Username + password
-
-• Space-separated credentials
-
-• Pipe-separated formats
-
-• CSV-like formats
 
 
 ## Features
