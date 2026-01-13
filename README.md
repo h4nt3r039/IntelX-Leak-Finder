@@ -6,7 +6,7 @@
 
 What this tool does:
 
-This tool searches IntelX for leaked data related to a specific domain and extracts credentials from raw leak files.
+This tool searches IntelX for leaked data related to a specific domain and extracts credentials from raw leak files. 
 
 Username and password types inside the IntelX leak file:
 
@@ -20,3 +20,17 @@ Username and password types inside the IntelX leak file:
 • Weird real-world dumps
 
 It outputs structured JSON files ready for SOC ingestion, automation, or alerting.
+
+<img width="201" height="360" alt="Screenshot from 2026-01-13 15-32-52" src="https://github.com/user-attachments/assets/e3d7cf4f-27d5-42d3-b830-796cefeb7e70" />
+
+
+
+Features
+
+• IntelX search automation
+• Polling for result readiness
+• Credential parsing
+• URL extraction
+• Deduplication
+• Date range filtering
+• JSON output
