@@ -38,10 +38,17 @@ This tool specifically targets the IntelX bucket "leaks.private.general", which 
 
 
 Features
+
 • IntelX search automation
+
 • Polling for result readiness
+
 • Credential parsing
+
 • URL extraction
+
 • Deduplication
+
 • Date range filtering
+
 • JSON output
