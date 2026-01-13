@@ -4,7 +4,7 @@
 * SOC-focused IntelX credential extractor
 
 
-What this tool does:
+# What this tool does:
 
 This tool searches IntelX for leaked data related to a specific domain and extracts credentials from raw leak files. 
 
@@ -37,7 +37,7 @@ This tool specifically targets the IntelX bucket "leaks.private.general", which 
 
 
 
-Features
+# Features
 
 • IntelX search automation
 
